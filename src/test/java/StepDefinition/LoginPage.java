@@ -7,7 +7,7 @@ import io.cucumber.java.en.When;
 import static pages.LoginPage.*;
 
 public class LoginPage {
-
+	
     @Given("User navigates to the portal login page")
     public void user_navigates_to_the_portal_login_page() throws InterruptedException {
         click_Hamburger_Menu();
